@@ -1,0 +1,1 @@
+export const imgPath = "http://localhost/vite-ecomerce/public/img";
