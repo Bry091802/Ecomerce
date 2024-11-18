@@ -47,10 +47,10 @@ const NewCollection = () => {
     <div>
         <div className="container">
             <div className='text-center py-5'>
-                <h3 className='uppercase mb-4'>new collection</h3>
+                <h2 className='uppercase mb-4'>new collection</h2>
                 <p className='opacity-40'>Our latest collection, where classic and contemporary styles converge in perfect harmony.</p>
             </div>
-            <div className='grid grid-cols-3 gap-2'>            
+            <div className='grid md:grid-cols-3 gap-2'>            
                 {newCollectionArray.map((item, key)=>(
 
             <NewCollectionItem item={item} key={key}/>
